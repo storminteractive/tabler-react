@@ -32,6 +32,60 @@ export default class EventList extends Component {
         .replace(/\..+/, ""),
       domain: faker.internet.domainName(),
       lastip: faker.internet.ip()
+    },
+    {
+      last: faker.date
+        .past()
+        .toISOString()
+        .replace(/T/, " ")
+        .replace(/\..+/, ""),
+      domain: faker.internet.domainName(),
+      lastip: faker.internet.ip()
+    },
+    {
+      last: faker.date
+        .past()
+        .toISOString()
+        .replace(/T/, " ")
+        .replace(/\..+/, ""),
+      domain: faker.internet.domainName(),
+      lastip: faker.internet.ip()
+    },
+    {
+      last: faker.date
+        .past()
+        .toISOString()
+        .replace(/T/, " ")
+        .replace(/\..+/, ""),
+      domain: faker.internet.domainName(),
+      lastip: faker.internet.ip()
+    },
+    {
+      last: faker.date
+        .past()
+        .toISOString()
+        .replace(/T/, " ")
+        .replace(/\..+/, ""),
+      domain: faker.internet.domainName(),
+      lastip: faker.internet.ip()
+    },
+    {
+      last: faker.date
+        .past()
+        .toISOString()
+        .replace(/T/, " ")
+        .replace(/\..+/, ""),
+      domain: faker.internet.domainName(),
+      lastip: faker.internet.ip()
+    },
+    {
+      last: faker.date
+        .past()
+        .toISOString()
+        .replace(/T/, " ")
+        .replace(/\..+/, ""),
+      domain: faker.internet.domainName(),
+      lastip: faker.internet.ip()
     }
   ];
 
